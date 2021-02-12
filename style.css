@@ -1,0 +1,28 @@
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.btn {
+  color: chocolate;
+  font-weight: bolder;
+  font-size: 1.33rem;
+}
+
+.btn-outline-warning:focus {
+  outline: none !important;
+}
+
+h3{
+    background-color: chocolate;
+    color: white;
+    padding: 5px;
+    text-shadow: 0px 3px 2px black;
+    border-radius: 10px;
+}
+
+.rounded{
+    border-radius: 2.25rem!important;
+}
