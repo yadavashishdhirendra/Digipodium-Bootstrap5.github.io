@@ -15,14 +15,52 @@
   outline: none !important;
 }
 
-h3{
-    background-color: chocolate;
-    color: white;
-    padding: 5px;
-    text-shadow: 0px 3px 2px black;
-    border-radius: 10px;
+h3 {
+  background-color: chocolate;
+  color: white;
+  padding: 5px;
+  text-shadow: 0px 3px 2px black;
+  border-radius: 10px;
 }
 
-.rounded{
-    border-radius: 2.25rem!important;
+.rounded {
+  border-radius: 2.25rem !important;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .table-dark {
+    color: rgb(206, 209, 5);
+  }
+
+  .rounded {
+    border-radius: 2.25rem !important;
+  }
+
+  #Text1 {
+    font-size: 14px !important;
+  }
+
+  #Text2 {
+    font-size: 14px !important;
+  }
+
+  #Text3 {
+    font-size: 14px !important;
+  }
+
+  h3 {
+    background-color: rgb(78, 228, 19);
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  h3:hover {
+    font-size: 2rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    background-color: cadetblue;
+    color: black;
+  }
 }
